@@ -9,10 +9,12 @@
 }
 
 .sidebar{
+    position: absolute;
     background-color: rgb(234, 234, 234);
-    width: 434px;
+    /* width: 277px; */
     font-family: 'Fira Sans', sans-serif;
     height: 108vh;
+    transition: transform 0.3s ease-in;
 }
 
 .sidebar nav{
@@ -33,7 +35,7 @@
 
 .main{
     /* background-color: yellow; */
-    width: 76vw;
+    width: 85vw;
 }
 
 .container{
@@ -44,10 +46,11 @@
     /* background-color: rgb(150, 17, 68);  */
     height: 30vh;
     width: 80vw;
-    margin: 147px auto;
+    margin: 90px auto;
     display: flex;
     justify-content: space-around;
-    padding: 114px;
+    flex-wrap: wrap;
+    padding: 30px;
 }
 
 .devInfo{
@@ -112,6 +115,7 @@
 .contactform{
     padding: 0 34px;
     padding-top: 144px;
+    margin: 0 67px;
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -157,7 +161,7 @@
 
 .blogContainer{
     font-family: 'Fira Sans', sans-serif;
-    margin: 23px;
+    margin: 94px 52px;
 }
 
 .blogItem p{
@@ -172,6 +176,10 @@
     margin: 12px;  
     padding: 11px;
     font-size: 45px;
+}
+
+.mainIntro{
+    padding: 61px 23px;
 }
 
 .intro h3{
@@ -251,10 +259,10 @@
     /* background-color: rgb(150, 17, 68);  */
     height: 10vh;
     width: 49vw;
-    margin: 141px auto;
+    margin: 196px 51px;
     display: flex;
     justify-content: space-around;
-    padding: 119px;
+    padding: 100px 23px;
 }
 
 .devInfoService{
@@ -282,4 +290,31 @@
     font-size: 22px;
     margin-top: 23px;
     font-family: 'Fira Sans', sans-serif;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 256px;
+}
+
+@media (max-width: 1500px) {
+   *{
+    /* background-color: rgb(175, 90, 90); */
+ }
+
+    /* .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
 }
