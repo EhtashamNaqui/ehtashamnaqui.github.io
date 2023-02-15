@@ -70,20 +70,10 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
-.about1{
+.about{
     font-size: 30px;
     color: rgb(247, 0, 255);
 }
-
-/* .about2{
-    font-size: 30px;
-    color: rgb(247, 0, 255);
-}
-
-.about3{
-    font-size: 30px;
-    color: rgb(247, 0, 255);
-} */
 
 .about1{
     list-style: none;
@@ -98,52 +88,12 @@
         width: 0ch;
     }
     50%{
-        width: 15ch;
+        width: 10ch;
     }
     100%{
         width: 0ch;
     }
 }
-
-/* .about2{
-    list-style: none;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 4px solid rgb(247, 0, 255);
-    animation: typing2 5s steps(15) infinite;
-    background: red;
-}
-@keyframes typing2 {
-    0%{
-        width: 0ch;
-    }
-    50%{
-        width: 6ch;
-    }
-    100%{
-        width: 0ch;
-    }
-}
-
-.about3{
-    list-style: none;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 4px solid rgb(247, 0, 255);
-    animation: typing3 5s steps(15) infinite;
-    background: red;
-}
-@keyframes typing3 {
-    0%{
-        width: 0ch;
-    }
-    50%{
-        width: 14ch;
-    }
-    100%{
-        width: 0ch;
-    }
-} */
 
 .moreabout{
     font-size: 22px;

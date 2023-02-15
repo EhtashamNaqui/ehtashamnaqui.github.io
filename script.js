@@ -13,3 +13,19 @@ document.querySelector('.hamburger').addEventListener("click", ()=>{
         }, 300);
         }
 })
+
+const text = document.querySelector(".about1");
+const textLoad = () => {
+    setTimeout(() => {
+        text.textContent = "Developer,.....";
+    }, 0);
+    setTimeout(() => {
+        text.textContent = "UI/UX Designer,";
+    }, 5000);
+    setTimeout(() => {
+        text.textContent = "AI Enthusiast.";
+    }, 10000);
+}
+
+textLoad();
+setInterval(textLoad, 10000);
