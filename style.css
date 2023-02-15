@@ -70,15 +70,85 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
-.about{
-    font-size: 40px;
+.about1{
+    font-size: 30px;
+    color: rgb(247, 0, 255);
+}
+
+.about2{
+    font-size: 30px;
+    color: rgb(247, 0, 255);
+}
+
+.about3{
+    font-size: 30px;
+    color: rgb(247, 0, 255);
+}
+
+.about1{
+    list-style: none;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid rgb(247, 0, 255);
+    animation: typing1 5s steps(15) infinite;
+    /* background: red; */
+}
+@keyframes typing1 {
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 10ch;
+    }
+    100%{
+        width: 0ch;
+    }
+}
+
+.about2{
+    list-style: none;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid rgb(247, 0, 255);
+    animation: typing2 5s 5s steps(15) infinite;
+    /* background: red; */
+}
+@keyframes typing2 {
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 6ch;
+    }
+    100%{
+        width: 0ch;
+    }
+}
+
+.about3{
+    list-style: none;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid rgb(247, 0, 255);
+    animation: typing3 5s steps(15) infinite;
+    /* background: red; */
+}
+@keyframes typing3 {
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 14ch;
+    }
+    100%{
+        width: 0ch;
+    }
 }
 
 .moreabout{
     font-size: 22px;
     margin-top: 23px;
     font-family: 'Fira Sans', sans-serif;
-
 }
 
 .buttons{
@@ -89,7 +159,7 @@
     padding: 5px 14px;
     border-radius: 42px;
     color: white;
-    background-color: dodgerblue;
+    background-color: rgb(247, 0, 255);;
     font-weight: bold;
     font-size: 18px;
     margin: 0 3px;
@@ -104,7 +174,7 @@
 
 .btn:hover{
     background-color: white;
-    color: dodgerblue;
+    color: rgb(247, 0, 255);;
 }
 
 .devPic img{
