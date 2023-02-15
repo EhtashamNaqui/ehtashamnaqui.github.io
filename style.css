@@ -110,7 +110,7 @@
     white-space: nowrap;
     overflow: hidden;
     border-right: 4px solid rgb(247, 0, 255);
-    animation: typing2 5s 5s steps(15) infinite;
+    animation: typing2 5s steps(15) infinite;
     /* background: red; */
 }
 @keyframes typing2 {
@@ -175,6 +175,10 @@
 .btn:hover{
     background-color: white;
     color: rgb(247, 0, 255);;
+}
+
+.devPic{
+    margin-top: inherit;
 }
 
 .devPic img{
